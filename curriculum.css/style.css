@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+body {
+    background-color: #ddd;
+    min-height: 100vh;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 1em;
+
+}
+
+
+
+
+
+
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+}
+
+
+
+
+
+
+
+
+img {
+    width: 15%;
+    aspect-ratio: 1 / 1;
+    /* Essa configuração aspect-ratio: 1 / 1; Mantém a proporção da imagem em 1:1, ou seja, a imagem será quadrada. */
+    object-fit: cover;
+    /* object-fit: cover; Faz com que a imagem preencha completamente o espaço disponível, */
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+
+}
+
+
+
+
+
+
+
+
+
+.principal {
+    width: 80%;
+    margin: auto;
+
+
+}
+
+
+
+
+
+
+
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    padding-top: .5em;
+    font-size: 40PX;
+    background-image: linear-gradient(to right, #142f309d, #666163, #b8aa95);
+    background-clip: text;
+    color: transparent
+}
+
+
+
+
+
+
+
+
+h2 {
+    background-color: #ddd;
+    padding: .6em;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+
+
+
+
+
+
+
+
+
+h2,
+h3 {
+    margin-top: 1em;
+    color: #2B3639;
+
+}
+
+
+
+
+
+
+
+p {
+    padding-top: 1.5em;
+    color: #333335;
+}
+
+
+
+
+
+
+
+
+ul {
+    list-style-position: inside;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+li {
+    list-style-position: inside;
+    font-size: 15px;
+    line-height: 22px;
+    color: #333335;
+
+
+}
+
+
+
+
+
+
+
+
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+
+}
